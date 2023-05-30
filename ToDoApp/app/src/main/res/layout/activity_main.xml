@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F6F4F8">
+
+
+    <Button
+        android:id="@+id/btngiris"
+        android:layout_width="179dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/buttonshape"
+        android:drawableEnd="@drawable/baseline_login_24"
+        android:gravity="center"
+        android:paddingEnd="30dp"
+        android:text="Giriş"
+        android:textColor="#FAF9F9"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnkayıt"
+        android:layout_width="127dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="77dp"
+        android:background="@drawable/s2"
+        android:drawableEnd="@drawable/baseline_person_add_24"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Kayıt ol"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="403dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/s4">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="-6dp"
+            android:background="@drawable/s3">
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="83dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="298dp"
+        android:layout_marginBottom="669dp"
+        app:srcCompat="@drawable/edit_icon" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="396dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="81dp"
+        android:gravity="center"
+        android:text="LIFE PLANNING \nAPP"
+        android:textSize="40sp" />
+
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="396dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="center"
+        android:text="LIFE PLANNING \nAPP"
+        android:textColor="#673AB7"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/txtNick"
+        android:layout_width="351dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="36dp"
+        android:drawableEnd="@drawable/person_icon"
+        android:ems="10"
+        android:hint="  Kullanıc Adı:"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="351dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="36dp"
+        android:drawableEnd="@drawable/email_icon"
+        android:ems="10"
+        android:hint="******@gmail.com:"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="351dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="36dp"
+        android:ems="10"
+        android:drawableEnd="@drawable/password_icon"
+        android:hint="  Şifre:"
+        android:inputType="textPassword" />
+
+
+</RelativeLayout>

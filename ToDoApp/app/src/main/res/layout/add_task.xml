@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F4F8"
+    tools:context=".AddTask">
+
+    <EditText
+        android:id="@+id/txttask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/purple_200"
+        android:hint="Hadi! Yeni görev ekle."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txttarihsec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:drawableRight="@drawable/date_icon"
+        android:drawablePadding="8dp"
+        android:text="Tarih seç"
+        android:textColor="@color/purple_200"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttask" />
+
+    <Button
+        android:id="@+id/btngorevekle"
+        android:layout_width="102dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="Ekle"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttask" />
+</androidx.constraintlayout.widget.ConstraintLayout>
